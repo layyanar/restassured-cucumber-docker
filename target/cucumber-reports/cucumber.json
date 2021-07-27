@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-25T09:49:26.904Z",
+        "line": 4,
+        "name": "Get users",
+        "description": "",
+        "id": "validate-user-api;get-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6911626000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify get users",
+            "match": {
+              "location": "steps.APIStepDefinitions.getUsers()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestGetUser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-25T09:49:33.910Z",
+        "line": 8,
+        "name": "Post users",
+        "description": "",
+        "id": "validate-user-api;post-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 877466000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify post users",
+            "match": {
+              "location": "steps.APIStepDefinitions.postUsers()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestPostUser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-25T09:49:34.793Z",
+        "line": 12,
+        "name": "Update users",
+        "description": "",
+        "id": "validate-user-api;update-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 754883000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify update users",
+            "match": {
+              "location": "steps.APIStepDefinitions.patchUsers()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestUpdateUser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-25T09:49:35.553Z",
+        "line": 16,
+        "name": "Excel sheet scenarios using Apache POI",
+        "description": "",
+        "id": "validate-user-api;excel-sheet-scenarios-using-apache-poi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 729692000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Get excel data rows",
+            "match": {
+              "location": "steps.APIStepDefinitions.getExcelRows()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197195000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Write a new excel of empDetail",
+            "match": {
+              "location": "steps.APIStepDefinitions.writeExcel()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestReadExcel"
+          }
+        ]
+      }
+    ],
+    "name": "Validate User API",
+    "description": "",
+    "id": "validate-user-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UserAPIValidation.feature",
+    "tags": []
+  }
+]

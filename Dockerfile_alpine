@@ -1,0 +1,17 @@
+
+FROM alpine
+COPY . src/test/java/cucumbertest
+WORKDIR src/test/java/cucumbertest
+
+RUN apk update && \
+    apk add openjdk8 && \
+    apk add maven
+
+    #apk add --no-cache bash && \
+    #rm -rf /var/cache/apk/* /tmp/* /var/tmp/* $HOME/.cache
+
+#RUN apk add openjdk8
+#RUN apk add maven
+
+ENV PATH $PATH:/usr/lib/jvm/java-1.8-openjdk/bin
+ENTRYPOINT mvn clean test verify
