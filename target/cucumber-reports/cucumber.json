@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-25T09:49:26.904Z",
+        "start_timestamp": "2021-07-28T11:07:18.535Z",
         "line": 4,
         "name": "Get users",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6911626000,
+              "duration": 5759703000,
               "status": "passed"
             },
             "line": 5,
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-25T09:49:33.910Z",
+        "start_timestamp": "2021-07-28T11:07:24.531Z",
         "line": 8,
         "name": "Post users",
         "description": "",
@@ -41,7 +41,7 @@
         "steps": [
           {
             "result": {
-              "duration": 877466000,
+              "duration": 514821000,
               "status": "passed"
             },
             "line": 9,
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-25T09:49:34.793Z",
+        "start_timestamp": "2021-07-28T11:07:25.057Z",
         "line": 12,
         "name": "Update users",
         "description": "",
@@ -69,7 +69,7 @@
         "steps": [
           {
             "result": {
-              "duration": 754883000,
+              "duration": 457736000,
               "status": "passed"
             },
             "line": 13,
@@ -87,7 +87,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-25T09:49:35.553Z",
+        "start_timestamp": "2021-07-28T11:07:25.540Z",
         "line": 16,
         "name": "Excel sheet scenarios using Apache POI",
         "description": "",
@@ -97,7 +97,7 @@
         "steps": [
           {
             "result": {
-              "duration": 729692000,
+              "duration": 1840706000,
               "status": "passed"
             },
             "line": 17,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 197195000,
+              "duration": 727736000,
               "status": "passed"
             },
             "line": 18,

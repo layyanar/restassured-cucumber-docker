@@ -4,10 +4,11 @@ ARG MAVEN_VERSION=3.6.3
 ARG USER_HOME_DIR="/root"
 
 COPY . src/test/java/cucumbertest
-
 WORKDIR src/test/java/cucumbertest
 
-RUN apt-get update && \
+## JAVA MVN INSTALLATION
+RUN #apt-get update && \
+    apt-get -y install oracle-java8-installer || true && \
     apt-get install -y openjdk-8-jdk && \
     apt-get install -y maven && \
     apt-get clean && \

@@ -3,7 +3,7 @@ API Automation Test is RestAssured based Cucumber framework to perform API testi
 
 ## Getting Started
 ```
-1. git clone https://github.com/layyanar/cucumbertest.git"
+1. git clone https://github.com/layyanar/restassured-cucumber-docker.git"
 2. Navigate to cucumbertest
 ```
 
