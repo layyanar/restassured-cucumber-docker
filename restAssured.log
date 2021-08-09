@@ -1,0 +1,43 @@
+Request method:	POST
+Request URI:	http://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": [
+        {
+            "last_name": "test1",
+            "avatar": "https://reqres.in/img/faces/lin1-image.jpg",
+            "id": "1",
+            "first_name": "lin1",
+            "email": "lin1.test1@reqres.in"
+        },
+        {
+            "last_name": "test2",
+            "avatar": "https://reqres.in/img/faces/lin2-image.jpg",
+            "id": "2",
+            "first_name": "lin2",
+            "email": "lin2.test2@reqres.in"
+        }
+    ]
+}
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 08 Aug 2021 07:37:59 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 08 Aug 2021 08:37:59 GMT
+Location: https://reqres.in/api/users
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dSCuP0%2Bik9BGCdKSbyVY4PULBwkGfx0tmraVRcgKpKB0UJ99TpalLKc8sO63etOVtVdQFQtNSe2Idq21ze1wDP%2BN89W69MQcle0uLlC6KhJrqvkW%2BKdGViuE2pY%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 67b715244d292098-NRT
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400

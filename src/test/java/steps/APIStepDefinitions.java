@@ -48,7 +48,6 @@ public class APIStepDefinitions {
                 body("data.id[0]", equalTo(7)).
                 extract().response();
 
-
         System.out.println("response: " + response.prettyPrint());
     }
 
@@ -62,11 +61,12 @@ public class APIStepDefinitions {
                 header("Content-Type", "application/json").
                 contentType(ContentType.JSON).
                 body(request.toJSONString()).
-                when().
+        when().
                 post(ENDPOINT_USER).
-                then().
+        then().
                 statusCode(301).
-                log().all();
+                log().all().
+                extract().response();
     }
 
     @When("^Verify update users")
